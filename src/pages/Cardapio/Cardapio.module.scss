@@ -1,7 +1,7 @@
 @import "styles/variaveis";
 @import "styles/breakpoints";
 
-.menu {
+.menu {  
   padding: 20px $padding-horizontal;
   @media (max-width: $desktop_xsm) {
     padding: 20px $padding-horizontal-mobile;
@@ -23,7 +23,7 @@
   height: 300px;
   padding: 0px $padding-horizontal;
   @media (max-width: $desktop_xsm) {
-    padding: 0px $padding-horizontal-mobile;
+    padding: 0px ;
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
     padding: 0px $padding-horizontal-sm;
