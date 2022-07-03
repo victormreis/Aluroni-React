@@ -23,19 +23,19 @@
     "rules": {
         "react/react-in-jsx-scope": "off",
         "indent": [
-            "error",
+            "warning",
             2
         ],
         "linebreak-style": [
-            "error",
+            "warning",
             "windows"
         ],
         "quotes": [
-            "error",
+            "warning",
             "single"
         ],
         "semi": [
-            "error",
+            "warning",
             "always"
         ]
     }
